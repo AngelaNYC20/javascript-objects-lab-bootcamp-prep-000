@@ -5,12 +5,12 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(object, key, value){
-  var newV = Object.assign ({}, object); // creating clone of the object by creating a new variable to reference it 
-  newV[key]=value; // the new varaible takes a key and gives a value 
+  var newV = Object.assign ({}, object); // creating clone of the object by creating a new variable to reference it
+  newV[key]=value; // the new varaible takes a key and gives a value
   return newV;
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object[key]=value; 
+  object[key]=value;
   return object;
 }
