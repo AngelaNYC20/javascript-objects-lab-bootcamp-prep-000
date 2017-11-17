@@ -17,6 +17,10 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   var newV = Object.assign ({}, object); //making a clone of the object
-  delete newV[key];//deleting the key in newV(the clone) or you can use the dot notation if you know what the key is EX meals.breakfast 
+  delete newV[key];//deleting the key in newV(the clone) or you can use the dot notation if you know what the key is EX meals.breakfast
   return newV;
+}
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+  
 }
